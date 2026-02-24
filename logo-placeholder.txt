@@ -1,0 +1,35 @@
+SK Infotech Logo Upload Instructions
+=====================================
+
+HEADER LOGO:
+-----------
+1. Apna SK Infotech logo save karo as "logo.png"
+2. Recommended size: 
+   - Width: 150-200 pixels
+   - Height: 50-60 pixels
+   - Landscape/horizontal format best hai
+3. Format: PNG with transparent background (recommended)
+4. Location: images/logo.png
+
+FAVICON (Browser Tab Icon):
+---------------------------
+1. Logo ko square format mein save karo as "favicon.png"
+2. Size: 512x512 pixels
+3. Format: PNG
+4. Location: images/favicon.png
+
+Current Setup:
+--------------
+- Logo image code sab pages mein add ho gaya hai
+- Agar logo.png file nahi hai, to "SK Infotech" text show hoga
+- Logo save karne ke baad automatically image show hoga
+
+File Paths:
+-----------
+images/logo.png     <-- Header logo (landscape)
+images/favicon.png  <-- Browser tab icon (square)
+
+Note:
+-----
+- Dono files save karne ke baad browser refresh karo
+- Logo transparent background ke saath best dikhega

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews - SK Infotech</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="SK Infotech" class="logo-img">
+                        <span>SK Infotech</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reviews.html" class="active">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Customer Reviews</h1>
+        <p>Share Your Experience with SK Infotech</p>
+    </section>
+
+    <!-- Submit Review Section -->
+    <section class="submit-review-section">
+        <div class="container">
+            <h2 class="section-title">Write a Review</h2>
+            <p class="section-description">We value your feedback! Share your experience with our services and help others make informed decisions.</p>
+            <div class="review-form-container">
+                <form id="reviewForm" class="review-form">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your Name *" required>
+                        <input type="text" name="location" placeholder="Your Location (e.g., Virar East) *" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" name="email" placeholder="Your Email (Optional)">
+                        <input type="tel" name="phone" placeholder="Your Phone (Optional)">
+                    </div>
+                    <div class="rating-input">
+                        <label>Your Rating *</label>
+                        <div class="star-rating">
+                            <input type="radio" name="rating" value="5" id="star5" required>
+                            <label for="star5"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="4" id="star4">
+                            <label for="star4"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="3" id="star3">
+                            <label for="star3"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="2" id="star2">
+                            <label for="star2"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="1" id="star1">
+                            <label for="star1"><i class="fas fa-star"></i></label>
+                        </div>
+                    </div>
+                    <select name="service" required>
+                        <option value="">Select Service You Used *</option>
+                        <option value="cctv">CCTV Installation</option>
+                        <option value="biometric">Biometric System</option>
+                        <option value="access">Access Control</option>
+                        <option value="alarm">Fire Alarm / Intrusion Detection</option>
+                        <option value="amc">Camera AMC Maintenance</option>
+                        <option value="network">Network Wiring & Setup</option>
+                        <option value="automation">Automation</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea name="review" placeholder="Write your review here... Tell us about your experience with our service, installation quality, team professionalism, etc. *" rows="6" required></textarea>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="consent" required>
+                        <label for="consent">I agree to share my review publicly on the SK Infotech website</label>
+                    </div>
+                    <button type="submit" class="btn-primary">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Reviews Section -->
+    <section class="all-reviews-section">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-description">Read genuine reviews from our satisfied customers across Virar, Vasai, Nalasopara, and Palghar.</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellent service! SK Infotech installed 8 CCTV cameras at my home with DVR and mobile viewing. Very professional team and quality products. The installation was clean and they explained everything clearly. Highly recommended!"</p>
+                    <div class="reviewer">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Rajesh Sharma</h4>
+                            <span>Virar East</span>
+                        </div>
+                    </div>
+                    <div class="review-service">Service: CCTV Installation</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best biometric attendance system installation for our office. Ankit and team did a fantastic job! They completed the work on time and provided proper training to our staff. Very satisfied with the service and support."</p>
+                    <div class="reviewer">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Priya Patel</h4>
+                            <span>Vasai</span>
+                        </div>
+                    </div>
+                    <div class="review-service">Service: Biometric System</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Installed complete security system including CCTV and access control for our shop. Great work and affordable prices. They also provide AMC service which gives us peace of mind. Thank you SK Infotech!"</p>
+                    <div class="reviewer">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Amit Desai</h4>
+                            <span>Nalasopara</span>
+                        </div>
+                    </div>
+                    <div class="review-service">Service: Access Control</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Very prompt service and excellent support. They installed video door phone at my apartment. Hitanshu was very helpful throughout. The quality of products is top-notch and installation was done professionally."</p>
+                    <div class="reviewer">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Sneha Joshi</h4>
+                            <span>Virar West</span>
+                        </div>
+                    </div>
+                    <div class="review-service">Service: Video Intercom</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Professional team with great expertise. Installed 16 channel DVR system for our shop. Quality products and timely installation. Their after-sales support is also excellent. Very happy with the service."</p>
+                    <div class="reviewer">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Vikram Singh</h4>
+                            <span>Palghar</span>
+                        </div>
+                    </div>
+                    <div class="review-service">Service: CCTV Installation</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best security solution provider in Virar! Installed complete CCTV setup with mobile monitoring. Very happy with the service. Ankit explained everything in detail and the team was very professional."</p>
+                    <div class="reviewer">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Meera Kulkarni</h4>
+                            <span>Virar East</span>
+                        </div>
+                    </div>
+                    <div class="review-service">Service: CCTV Installation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/918793117398?text=Hello%20SK%20Infotech,%20I%20need%20information%20about%20your%20security%20solutions" class="float-btn whatsapp-btn" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:skinfotec.sales@gmail.com?subject=Inquiry%20about%20Security%20Solutions" class="float-btn email-btn" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:8793117398" class="float-btn call-btn" title="Call Now">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SK Infotech. All Rights Reserved.</p>
+            <p>Professional CCTV Installation & Security Solutions</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Star Rating Interactive
+        const starLabels = document.querySelectorAll('.star-rating label');
+        const starInputs = document.querySelectorAll('.star-rating input');
+
+        starLabels.forEach((label, index) => {
+            label.addEventListener('mouseenter', () => {
+                for (let i = 0; i <= index; i++) {
+                    starLabels[i].style.color = '#fbbf24';
+                }
+            });
+        });
+
+        document.querySelector('.star-rating').addEventListener('mouseleave', () => {
+            const checkedIndex = Array.from(starInputs).findIndex(input => input.checked);
+            starLabels.forEach((label, index) => {
+                if (checkedIndex >= 0 && index <= checkedIndex) {
+                    label.style.color = '#fbbf24';
+                } else {
+                    label.style.color = '#d1d5db';
+                }
+            });
+        });
+
+        starInputs.forEach((input, index) => {
+            input.addEventListener('change', () => {
+                starLabels.forEach((label, i) => {
+                    if (i <= index) {
+                        label.style.color = '#fbbf24';
+                    } else {
+                        label.style.color = '#d1d5db';
+                    }
+                });
+            });
+        });
+
+        // Review Form Submission
+        document.getElementById('reviewForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const rating = formData.get('rating');
+            const name = formData.get('name');
+            
+            alert(`Thank you ${name} for your ${rating}-star review! Your feedback has been submitted and will be reviewed by our team. We appreciate your time and trust in SK Infotech.`);
+            this.reset();
+            starLabels.forEach(label => label.style.color = '#d1d5db');
+        });
+    </script>
+</body>
+</html>

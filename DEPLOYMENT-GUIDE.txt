@@ -1,0 +1,177 @@
+SK Infotech Website - Free Deployment Guide
+============================================
+
+OPTION 1: GitHub Pages (RECOMMENDED - 100% FREE)
+-------------------------------------------------
+✅ Completely Free
+✅ Custom Domain Support
+✅ Fast & Reliable
+✅ Easy to Update
+
+Steps:
+1. GitHub Account banao (github.com)
+2. New Repository create karo: "sk-infotech-website"
+3. Sab files upload karo (index.html, style.css, etc.)
+4. Settings > Pages > Source: "main branch" select karo
+5. Website live: https://yourusername.github.io/sk-infotech-website
+
+Custom Domain (Optional):
+- Domain kharido (GoDaddy, Hostinger - ₹99/year se)
+- GitHub Pages settings mein custom domain add karo
+- Domain DNS settings update karo
+
+
+OPTION 2: Netlify (RECOMMENDED - FREE)
+---------------------------------------
+✅ Free Forever Plan
+✅ Automatic HTTPS
+✅ Form Submissions (Contact/Review forms work!)
+✅ Easy Drag & Drop
+
+Steps:
+1. Netlify.com pe account banao
+2. "Add new site" > "Deploy manually"
+3. Sab files ko zip karke drag & drop karo
+4. Website instantly live!
+5. Free subdomain milega: sk-infotech.netlify.app
+
+Custom Domain: Free mein connect kar sakte ho
+
+
+OPTION 3: Vercel (FREE)
+------------------------
+✅ Free Plan
+✅ Fast Performance
+✅ Easy Deployment
+
+Steps:
+1. Vercel.com pe signup karo
+2. "New Project" > Upload files
+3. Deploy button click karo
+4. Live: sk-infotech.vercel.app
+
+
+OPTION 4: InfinityFree (FREE HOSTING)
+--------------------------------------
+✅ Free Hosting
+✅ Free Subdomain
+✅ cPanel Access
+✅ PHP/MySQL Support
+
+Steps:
+1. InfinityFree.net pe account banao
+2. Free subdomain choose karo: skinfotech.rf.gd
+3. File Manager se sab files upload karo
+4. Website live!
+
+
+OPTION 5: 000webhost (FREE)
+----------------------------
+✅ Free Hosting
+✅ No Ads
+✅ 300 MB Storage
+
+Steps:
+1. 000webhost.com pe signup
+2. Create website
+3. Upload files via File Manager
+4. Live!
+
+
+BEST RECOMMENDATION FOR SK INFOTECH:
+=====================================
+
+🏆 NETLIFY (Best for you!)
+Why?
+- Forms automatically work (Contact & Review forms)
+- Free SSL certificate
+- Fast loading
+- Easy to update
+- Professional subdomain: sk-infotech.netlify.app
+- Later custom domain add kar sakte ho
+
+
+QUICK START - NETLIFY DEPLOYMENT:
+==================================
+
+1. Netlify.com pe jao
+2. "Sign up" with Email/Google
+3. "Add new site" > "Deploy manually"
+4. Sab files select karke drag & drop karo:
+   - index.html
+   - style.css
+   - script.js
+   - All other HTML files
+   - images folder
+5. "Deploy" click karo
+6. 2 minutes mein website live!
+
+
+CUSTOM DOMAIN SETUP (Optional - ₹99-500/year):
+===============================================
+
+Domain Providers:
+- GoDaddy.com (₹99/year .in domain)
+- Hostinger.in (₹149/year)
+- BigRock.in (₹199/year)
+
+After buying domain:
+1. Netlify mein "Domain settings" > "Add custom domain"
+2. Domain provider ke DNS settings mein Netlify nameservers add karo
+3. 24 hours mein domain active
+
+
+FORM SUBMISSIONS SETUP (For Contact/Review Forms):
+===================================================
+
+Netlify Forms (FREE):
+1. index.html, contact.html, reviews.html mein forms already ready hain
+2. Netlify automatically detect karega
+3. Form submissions Netlify dashboard mein dikhenge
+4. Email notifications setup kar sakte ho
+
+
+FILES TO UPLOAD:
+================
+✅ index.html
+✅ about.html
+✅ services.html
+✅ products.html
+✅ gallery.html
+✅ contact.html
+✅ support.html
+✅ reviews.html
+✅ style.css
+✅ script.js
+✅ images/ folder (with logo.png, favicon.png, project photos)
+
+
+AFTER DEPLOYMENT:
+=================
+1. Google Search Console mein website submit karo
+2. Google My Business listing banao
+3. Social media pe share karo
+4. Business cards pe website URL print karo
+
+
+NEED HELP?
+==========
+- Netlify Documentation: docs.netlify.com
+- YouTube: "How to deploy website on Netlify"
+- Support: support@netlify.com
+
+
+COST SUMMARY:
+=============
+Hosting: FREE (Netlify/GitHub Pages)
+Domain (Optional): ₹99-500/year
+SSL Certificate: FREE (Automatic)
+Total: ₹0 (or ₹99/year with custom domain)
+
+
+RECOMMENDED DOMAIN NAMES:
+==========================
+- skinfotech.in
+- skinfotechvirar.in
+- skinfotechsecurity.in
+- skinfotechcctv.in

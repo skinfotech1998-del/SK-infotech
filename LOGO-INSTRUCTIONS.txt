@@ -1,0 +1,32 @@
+SK Infotech Logo/Favicon Upload Instructions
+=============================================
+
+FAVICON (Browser Tab Icon):
+---------------------------
+1. Apna SK Infotech logo save karo as "favicon.png"
+2. Recommended size: 512x512 pixels (square)
+3. Format: PNG with transparent background (best)
+4. Location: images/favicon.png
+
+Alternative sizes (optional):
+- favicon-16x16.png (16x16 pixels)
+- favicon-32x32.png (32x32 pixels)
+- favicon-192x192.png (192x192 pixels for Android)
+
+FULL LOGO (Website Header - Optional):
+--------------------------------------
+Agar aap header mein bhi logo image use karna chahte ho:
+1. Logo save karo as "logo.png"
+2. Recommended size: 200x80 pixels (landscape)
+3. Format: PNG with transparent background
+4. Location: images/logo.png
+
+Current Status:
+--------------
+- Abhi icon-based logo use ho raha hai (camera icon)
+- Favicon ready hai - bas "favicon.png" file images folder mein save karo
+- Sab pages mein favicon automatically show hoga
+
+File Path:
+----------
+images/favicon.png  <-- Yahan apna logo save karo
